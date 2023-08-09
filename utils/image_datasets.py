@@ -63,7 +63,8 @@ class CrossSectional_Dataset(Dataset):
         self.stretch = stretch
         self.data_type = data_type
 
-        self.unlabel_flags = np.load(os.path.join(self.data_path, 'unlabel_flags.npz'))['flags']
+        # self.unlabel_flags = np.load(os.path.join(self.data_path, 'unlabel_flags.npz'))['flags']
+        self.unlabel_flags = None
 
         if self.data_type == 'label':
             tmp_rnflt = []

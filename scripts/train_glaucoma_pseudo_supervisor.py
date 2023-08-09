@@ -322,7 +322,7 @@ def create_argparser():
         data_dir="",
         data_subset='train',
         data_val_subset='val',
-        data_tst_subset='test',
+        data_tst_subset='test1000_rnflt',
         model='vit',
         schedule_sampler="uniform",
         random_seed=-1,

@@ -15,7 +15,7 @@ import torch.nn.functional as F
 from torch.optim.lr_scheduler import LambdaLR, CosineAnnealingLR, ExponentialLR, StepLR
 
 sys.path.append('.')
-from improved_diffusion import dist_util
+from utils import dist_util
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
