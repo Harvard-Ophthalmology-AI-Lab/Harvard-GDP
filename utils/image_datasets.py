@@ -117,7 +117,13 @@ class Longitudinal_Dataset(Dataset):
         self.modality = modality
 
         self.rnflt_data_path = os.path.join(self.data_path, subset)
-        self.rnflt_data = find_all_files(self.rnflt_data_path, suffix='npz')
+        self.rnflt_data = []
+        rnflt_data = find_all_files(self.rnflt_data_path, suffix='npz')
+        for x in rnflt_data:
+            raw_data = np.load(os.path.join(self.rnflt_data_path, x), allow_pickle=True)
+            if 'progression' in raw_data.files:
+                self.rnflt_data.append(x)
+
         self.progression_type = outcome_type
         if self.progression_type == 'progression_outcome_md_fast_no_p_cut':
             self.progression_index=4
@@ -136,7 +142,8 @@ class Longitudinal_Dataset(Dataset):
         self.stretch = stretch
         self.data_type = data_type
 
-        self.unlabel_flags = np.load(os.path.join(self.data_path, 'unlabel_flags.npz'))['flags']
+        # self.unlabel_flags = np.load(os.path.join(self.data_path, 'unlabel_flags.npz'))['flags']
+        self.unlabel_flags = None
 
         if self.data_type == 'label':
             tmp_rnflt = []
