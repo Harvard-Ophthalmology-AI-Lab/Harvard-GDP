@@ -4,7 +4,7 @@ The dataset and code for the paper entitled *Harvard Glaucoma Detection and Prog
 
 # Dataset
 
-The OCT RNFLT maps with labels can be accessed via this [link](https://drive.google.com/drive/folders/1F9wM5W-00XMd2tqlt8b_pyi_yjkRwfpc?usp=share_link), while the 3D OCT B-scan images can be accessed via this [link](https://drive.google.com/drive/folders/1e36KTZ_LdGzTkn6ajzv5JLxVxDH-NRqa?usp=sharing). The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+The dataset can be accessed via this [link](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz?usp=drive_link). This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 The glaucoma data of 1000 patients includes 1000 OCT RNFLT maps (dimension 225x225). The visual field, patient age, sex, race, glaucoma and progression label information are also included in the data.
 
