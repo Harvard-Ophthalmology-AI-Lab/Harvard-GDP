@@ -4,9 +4,9 @@ The dataset and code for the paper entitled *Harvard Glaucoma Detection and Prog
 
 # Dataset
 
-The dataset can be accessed via this [link](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz?usp=drive_link). This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+The dataset can be accessed via this [link](https://ophai.hms.harvard.edu/datasets/harvard-glaucoma-detection-progression-1000-samples/). This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-The glaucoma data of 1000 patients includes 1000 OCT RNFLT maps (dimension 225x225). The visual field, patient age, sex, race, glaucoma and progression label information are also included in the data.
+The glaucoma data of 1000 patients includes 1000 OCT RNFLT maps (dimension 225x225). The visual field, patient age, sex, race, glaucoma, and progression label information are also included in the data.
 
 1000 OCT RNFLT maps are in the rnflt_maps folder:
 data_0001.npz
@@ -15,7 +15,7 @@ data_0002.npz
 data_1000.npz
 
 Each data contains the following attributes:
-1) rnflt: OCT RNFLT map of size 225x225.
+1) rnflt: OCT RNFLT map of size 225 x 225.
 2) glaucoma: glaucomatous status, 0 for non-glaucoma and 1 for glaucoma.
 3) progression: a vector corresponding to 6 different progression labels, 0 for non-progression and 1 for progression.
 4) md: mean deviation value of visual field.
