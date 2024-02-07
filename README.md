@@ -63,3 +63,18 @@ To run the experiments on the task of progression forecasting, run:
 ```
 ./progression_forecasting_training.sh
 ```
+
+## Acknowledgement & Citation
+
+
+If you find this repository useful for your research, please consider citing our [paper](https://arxiv.org/abs/2306.09264):
+
+```bibtex
+@inproceedings{luo2023harvard,
+  title={Harvard Glaucoma Detection and Progression: A Multimodal Multitask Dataset and Generalization-Reinforced Semi-Supervised Learning},
+  author={Luo, Yan and Shi, Min and Tian, Yu and Elze, Tobias and Wang, Mengyu},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={20471--20482},
+  year={2023}
+}
+}
