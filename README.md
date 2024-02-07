@@ -6,7 +6,7 @@ The dataset and code for the paper entitled *Harvard Glaucoma Detection and Prog
 
 The dataset can be accessed via this [link](https://ophai.hms.harvard.edu/datasets/harvard-gdp1000). This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-The glaucoma data of 1000 patients includes 1000 OCT RNFLT maps (dimension 225 x 225). The visual field, patient age, sex, race, glaucoma, and progression label information are also included in the data.
+The glaucoma data of 1,000 patients includes 1,000 OCT RNFLT maps (dimension 225 x 225). The visual field, patient age, gender, race, glaucoma, and progression label information are also included in the data.
 
 1000 OCT RNFLT maps are in the rnflt_maps folder:
 data_0001.npz
@@ -21,8 +21,9 @@ Each data contains the following attributes:
 4) md: mean deviation value of visual field.
 5) tds: 52 total deviation values of visual field.
 6) age: patient age.
-7) male: patient sex, 0 for female and 1 for male.
+7) male: patient gender, 0 for female and 1 for male.
 8) race: patient race.
+9) hispanic: patient ethnicity
 
 Only the first 500 data (0001~0500) have progression label defined in 6 ways respectively:
 progression[0]: md.
