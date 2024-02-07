@@ -8,7 +8,7 @@ The dataset can be accessed via this [link](https://ophai.hms.harvard.edu/datase
 
 The glaucoma data of 1,000 patients includes 1,000 OCT RNFLT maps (dimension 225 x 225). The visual field, patient age, gender, race, glaucoma, and progression label information are also included in the data.
 
-1000 OCT RNFLT maps are in the rnflt_maps folder:
+1,000 OCT RNFLT maps are in the rnflt_maps folder:
 data_0001.npz
 data_0002.npz
 ...
