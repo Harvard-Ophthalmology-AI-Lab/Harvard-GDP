@@ -64,7 +64,7 @@ To run the experiments on the task of progression forecasting, run:
 ./progression_forecasting_training.sh
 ```
 
-## Acknowledgement & Citation
+## Acknowledgement and Citation
 
 
 If you find this repository useful for your research, please consider citing our [paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Luo_Harvard_Glaucoma_Detection_and_Progression_A_Multimodal_Multitask_Dataset_and_ICCV_2023_paper.pdf):
