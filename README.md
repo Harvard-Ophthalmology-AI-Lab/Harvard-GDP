@@ -4,7 +4,7 @@ The dataset and code for the paper entitled [**Harvard Glaucoma Detection and Pr
 
 # Dataset
 
-The dataset can be accessed via this [link](https://ophai.hms.harvard.edu/datasets/harvard-gdp1000). This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+The dataset can be accessed via this [link](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz?usp=drive_link). This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). If you have any questions about this dataset, please email [harvardophai@gmail.com](harvardophai@gmail.com).
 
 The glaucoma data of 1,000 patients includes 1,000 OCT RNFLT maps (dimension 225 x 225). The visual field, patient age, gender, race, glaucoma, and progression label information are also included in the data.
 
